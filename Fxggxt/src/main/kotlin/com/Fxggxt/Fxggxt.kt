@@ -11,12 +11,12 @@ import org.json.JSONArray
 class Fxggxt : MainAPI() {
     override var mainUrl = "https://fxggxt.com"
     override var name = "Fxggxt"
-override val hasMainPage = true
-override val hasDownloadSupport = true
-override val vpnStatus = VPNStatus.MightBeNeeded
-override val supportedTypes = setOf(TvType.NSFW)
+    override val hasMainPage = true
+    override val hasDownloadSupport = true
+    override val vpnStatus = VPNStatus.MightBeNeeded
+    override val supportedTypes = setOf(TvType.NSFW)
 
-override val mainPage = mainPageOf(
+    override val mainPage = mainPageOf(
         "$mainUrl/tag/amateur-gay-porn/" to "Amateur",
         "$mainUrl/tag/bareback-gay-porn/" to "Bareback",
         "$mainUrl/tag/big-dick-gay-porn/" to "Big Dick",
@@ -27,9 +27,9 @@ override val mainPage = mainPageOf(
         "$mainUrl/tag/muscle-gay-porn/" to "Muscle",
         "$mainUrl/tag/straight-guys-gay-porn/" to "Straight",
         "$mainUrl/tag/twink-gay-porn/" to "Twink"
-)
+    )
 
-override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
+    override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
         val url = if (page > 1) {
             "${request.data}page/$page/"
         } else {
@@ -39,13 +39,13 @@ override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageR
         val document = app.get(url).document
         val responseList = document.select("article.loop-video.thumb-block").mapNotNull { it.toSearchResult() }
 
-return newHomePageResponse(
+        return newHomePageResponse(
             HomePageList(request.name, responseList, isHorizontalImages = true),
             hasNext = responseList.isNotEmpty()
-)
-}
+        )
+    }
 
-private fun Element.toSearchResult(): SearchResponse? {
+    private fun Element.toSearchResult(): SearchResponse? {
         val aTag = this.selectFirst("a") ?: return null
         val href = aTag.attr("href")
         val title = aTag.selectFirst("header.entry-header span")?.text() ?: "No Title"
@@ -53,14 +53,14 @@ private fun Element.toSearchResult(): SearchResponse? {
         var posterUrl = aTag.selectFirst(".post-thumbnail-container img")?.attr("data-src")
         if (posterUrl.isNullOrEmpty()) {
             posterUrl = aTag.selectFirst(".post-thumbnail-container img")?.attr("src")
-}
+        }
 
         return newMovieSearchResponse(title, href, TvType.Movie) {
             this.posterUrl = posterUrl
-}
-}
+        }
+    }
 
-override suspend fun search(query: String): List<SearchResponse> {
+    override suspend fun search(query: String): List<SearchResponse> {
         val searchResponse = mutableListOf<SearchResponse>()
         for (i in 1..7) {
             val url = if (i > 1) {
@@ -78,12 +78,12 @@ override suspend fun search(query: String): List<SearchResponse> {
             } else {
                 break
             }
-}
+        }
 
         return searchResponse
-}
+    }
 
-override suspend fun load(url: String): LoadResponse {
+    override suspend fun load(url: String): LoadResponse {
     val doc = app.get(url).document
     val videoElement = doc.selectFirst("article[itemtype='http://schema.org/VideoObject']")
         ?: throw ErrorLoadingException("Không tìm thấy thẻ video")
@@ -98,15 +98,15 @@ override suspend fun load(url: String): LoadResponse {
         this.posterUrl = poster
         this.plot = description
         if (actors.isNotEmpty()) addActors(actors)
-}
+    }
 }
 
-override suspend fun loadLinks(
-data: String,
-isCasting: Boolean,
-subtitleCallback: (SubtitleFile) -> Unit,
-callback: (ExtractorLink) -> Unit
-): Boolean {
+    override suspend fun loadLinks(
+        data: String,
+        isCasting: Boolean,
+        subtitleCallback: (SubtitleFile) -> Unit,
+        callback: (ExtractorLink) -> Unit
+    ): Boolean {
         val document = app.get(data).document
         val embedUrl = document.selectFirst("div.responsive-player iframe")?.attr("src")
 
@@ -114,6 +114,6 @@ callback: (ExtractorLink) -> Unit
             loadExtractor(embedUrl, data, subtitleCallback, callback)
         }
 
-return true
-}
+        return true
+    }
 }
