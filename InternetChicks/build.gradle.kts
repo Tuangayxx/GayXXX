@@ -7,7 +7,7 @@ cloudstream {
 
     description = "InternetChicks"
     language    = "en"
-    authors = listOf("HindiProviders")
+    authors = listOf("GayXXX")
 
     /**
     * Status int as the following:

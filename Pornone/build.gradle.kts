@@ -1,7 +1,7 @@
 version = 3
 
 cloudstream {
-    authors     = listOf("luck731")
+    authors     = listOf("GayXXX")
     language    = "en"
     description = "Free Porn & HD Porno Videos in full length! Every minute new porn video for download and streaming. Tons of the Best XXX Movies daily from top porno tube PornOne."
 

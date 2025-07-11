@@ -7,7 +7,7 @@ cloudstream {
 
     description = "Onlyjerk"
     language    = "en"
-    authors = listOf("megix")
+    authors = listOf("GayXXX")
 
     /**
     * Status int as the following:
