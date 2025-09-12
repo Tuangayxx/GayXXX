@@ -1,60 +1,64 @@
-name: Build
+# Tên của workflow
+name: Sync Build Artifacts from Repo A
 
-# https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#concurrency
-concurrency:
-  group: "build"
-  cancel-in-progress: true
-
-
+# https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_run
 on:
-  push:
+  # Kích hoạt workflow này khi một workflow khác hoàn thành
+  workflow_run:
+    # Tên repository nguồn (Repo A)
+    [span_0](start_span)workflows: ["Build"] # Tên workflow của repo A, lấy từ "name: Build"[span_0](end_span)
+    types:
+      - completed # Chỉ chạy khi workflow của repo A hoàn thành
     branches:
-      # choose your default branch
+      - main # Chỉ lắng nghe khi workflow của repo A chạy trên nhánh main
       - master
-      - main
-    paths-ignore:
-      - '*.md'
 
 jobs:
-  build:
+  sync:
     runs-on: ubuntu-latest
+    # Chỉ chạy job này nếu workflow của repo A chạy thành công
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4.2.2
-        with:
-          path: "src"
+      # 1. Checkout repo B để có thể commit file vào
+      - name: Checkout Repo B
+        uses: actions/checkout@v4
 
-      - name: Checkout builds
-        uses: actions/checkout@v4.2.2
-        with:
-          ref: "builds"
-          path: "builds"
-
-      - name: Clean old builds
-        run: rm $GITHUB_WORKSPACE/builds/*.cs3 || true
-
-      - name: Setup JDK 17
-        uses: actions/setup-java@v4.6.0
-        with:
-          distribution: "adopt"
-          java-version: 17
-
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3.2.2
-
-      - name: Build Plugins
+      # 2. Xóa các file build cũ trong repo B để đảm bảo sạch sẽ
+      - name: Clean old artifacts
         run: |
-          cd $GITHUB_WORKSPACE/src
-          chmod +x gradlew
-          ./gradlew make makePluginsJson
-          cp **/build/*.cs3 $GITHUB_WORKSPACE/builds
-          cp build/plugins.json $GITHUB_WORKSPACE/builds
+          # Thay đổi 'ten_thu_muc_build' thành tên thư mục chứa file build trong repo B
+          # Nếu bạn lưu file ngay ở thư mục gốc, bạn có thể thay bằng các đuôi file
+          # Ví dụ: rm -f *.cs3 plugins.json
+          echo "Cleaning up old build files..."
+          # Giả sử bạn lưu các file build vào thư mục 'dist' trong Repo B
+          rm -rf ./dist/* # 3. Checkout nhánh "builds" từ repo A vào một thư mục tạm
+      - name: Checkout Repo A builds branch
+        uses: actions/checkout@v4
+        with:
+          # Thay 'TEN_NGUOI_DUNG/TEN_REPO_A' bằng đường dẫn tới repo A
+          repository: 'tuangayxx/Gayvn'
+          [span_1](start_span)ref: 'builds' # Tên nhánh chứa file build của repo A[span_1](end_span)
+          path: '.repo-a-builds' # Tải về một thư mục tạm
 
-      - name: Push builds
+      # 4. Copy file build mới từ repo A sang repo B
+      - name: Copy new artifacts
         run: |
-          cd $GITHUB_WORKSPACE/builds
+          # Copy toàn bộ nội dung từ thư mục tạm vào thư mục 'dist' của repo B
+          # Nếu bạn muốn copy ra thư mục gốc, thay './dist' bằng '.'
+          echo "Copying new build files..."
+          rsync -av --delete .repo-a-builds/ .
+
+      # 5. Commit và đẩy các file mới lên repo B
+      - name: Commit and push changes
+        run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add .
-          git commit --amend -m "Build $GITHUB_SHA" || exit 0   # do not error if nothing to commit
-          git push --force
+          # Chỉ commit khi có sự thay đổi
+          if ! git diff --staged --quiet; then
+            git commit -m "Sync: Update build artifacts from Repo A (${{ github.event.workflow_run.head_sha }})"
+            git push
+          else
+            echo "No changes to commit."
+          fi
