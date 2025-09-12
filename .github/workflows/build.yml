@@ -6,7 +6,7 @@ on:
   # Kích hoạt workflow này khi một workflow khác hoàn thành
   workflow_run:
     # Tên repository nguồn (Repo A)
-    [span_0](start_span)workflows: ["Build"] # Tên workflow của repo A, lấy từ "name: Build"[span_0](end_span)
+    workflows: ["Build"] # Tên workflow của repo A, lấy từ "name: Build"
     types:
       - completed # Chỉ chạy khi workflow của repo A hoàn thành
     branches:
@@ -38,7 +38,7 @@ jobs:
         with:
           # Thay 'TEN_NGUOI_DUNG/TEN_REPO_A' bằng đường dẫn tới repo A
           repository: 'tuangayxx/Gayvn'
-          [span_1](start_span)ref: 'builds' # Tên nhánh chứa file build của repo A[span_1](end_span)
+          ref: 'builds' # Tên nhánh chứa file build của repo A
           path: '.repo-a-builds' # Tải về một thư mục tạm
 
       # 4. Copy file build mới từ repo A sang repo B
