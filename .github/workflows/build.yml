@@ -5,57 +5,44 @@ name: Sync Build Artifacts from Repo A
 on:
   # Kích hoạt workflow này khi một workflow khác hoàn thành
   workflow_run:
-    # Tên repository nguồn (Repo A)
-    workflows: ["Build"] # Tên workflow của repo A, lấy từ "name: Build"
+    workflows: ["Build"]
     types:
-      - completed # Chỉ chạy khi workflow của repo A hoàn thành
+      - completed
     branches:
-      - main # Chỉ lắng nghe khi workflow của repo A chạy trên nhánh main
+      - main
       - master
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-    # Chỉ chạy job này nếu workflow của repo A chạy thành công
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
 
     steps:
-      # 1. Checkout repo B để có thể commit file vào
+  
       - name: Checkout Repo B
         uses: actions/checkout@v4
 
-      # 2. Xóa các file build cũ trong repo B để đảm bảo sạch sẽ
+     
       - name: Clean old artifacts
         run: |
-          # Thay đổi 'ten_thu_muc_build' thành tên thư mục chứa file build trong repo B
-          # Nếu bạn lưu file ngay ở thư mục gốc, bạn có thể thay bằng các đuôi file
-          # Ví dụ: rm -f *.cs3 plugins.json
-          echo "Cleaning up old build files..."
-          # Giả sử bạn lưu các file build vào thư mục 'dist' trong Repo B
-          rm -rf ./dist/* # 3. Checkout nhánh "builds" từ repo A vào một thư mục tạm
       - name: Checkout Repo A builds branch
         uses: actions/checkout@v4
         with:
-          # Thay 'TEN_NGUOI_DUNG/TEN_REPO_A' bằng đường dẫn tới repo A
           repository: 'tuangayxx/Gayvn'
-          ref: 'builds' # Tên nhánh chứa file build của repo A
-          path: '.repo-a-builds' # Tải về một thư mục tạm
+          ref: 'builds'
+          path: '.repo-a-builds'
 
-      # 4. Copy file build mới từ repo A sang repo B
       - name: Copy new artifacts
         run: |
-          # Copy toàn bộ nội dung từ thư mục tạm vào thư mục 'dist' của repo B
-          # Nếu bạn muốn copy ra thư mục gốc, thay './dist' bằng '.'
           echo "Copying new build files..."
           rsync -av --delete .repo-a-builds/ .
 
-      # 5. Commit và đẩy các file mới lên repo B
       - name: Commit and push changes
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add .
-          # Chỉ commit khi có sự thay đổi
+          
           if ! git diff --staged --quiet; then
             git commit -m "Sync: Update build artifacts from Repo A (${{ github.event.workflow_run.head_sha }})"
             git push
