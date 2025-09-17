@@ -27,27 +27,27 @@ jobs:
             size=$(stat -c%s "$cs3")
             url="https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/$cs3"
 
-            cat <<'EOF' >> plugins.json
-                {
-                  "iconUrl": "https://example.com/icon.png",
-                  "apiVersion": 1,
-                  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-                  "fileSize": $size,
-                  "status": 1,
-                  "language": "en",
-                  "authors": [
-                    "GayXXX"
-                  ],
-                  "tvTypes": [
-                    "NSFW"
-                  ],
-                  "version": 1,
-                  "internalName": "$name",
-                  "description": "$name plugin description",
-                  "url": "$url",
-                  "name": "$name"
-                }
-                EOF
+            cat <<EOF >> plugins.json
+          {
+            "iconUrl": "https://example.com/icon.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
+            "fileSize": $size,
+            "status": 1,
+            "language": "en",
+            "authors": [
+              "GayXXX"
+            ],
+            "tvTypes": [
+              "NSFW"
+            ],
+            "version": 1,
+            "internalName": "$name",
+            "description": "$name plugin description",
+            "url": "$url",
+            "name": "$name"
+          }
+          EOF
           done
           echo "]" >> plugins.json
 
