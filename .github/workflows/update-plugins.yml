@@ -26,7 +26,6 @@ jobs:
             name="${cs3%.cs3}"
             size=$(stat -c%s "$cs3")
             url="https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/$cs3"
-
             cat <<EOF >> plugins.json
           {
             "iconUrl": "https://example.com/icon.png",
