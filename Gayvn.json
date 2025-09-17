@@ -1,0 +1,8 @@
+{
+  "name": "Gayvn",
+  "description": "This Repo Contains NSFW Content for Gay!",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/Tuangayxx/Gayvn/builds/plugins.json"
+  ]
+}
