@@ -1,901 +1,344 @@
 [
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 14117,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "BestHDgayporn",
-  "description": "BestHDgayporn plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/BestHDgayporn.cs3",
-  "name": "BestHDgayporn"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 11901,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "BoyfriendTV",
-  "description": "BoyfriendTV plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/BoyfriendTV.cs3",
-  "name": "BoyfriendTV"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 0,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Boyfriendtv",
-  "description": "Boyfriendtv plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Boyfriendtv.cs3",
-  "name": "Boyfriendtv"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 12509,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "FreePornVideos",
-  "description": "FreePornVideos plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/FreePornVideos.cs3",
-  "name": "FreePornVideos"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 11520,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Fullboys",
-  "description": "Fullboys plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Fullboys.cs3",
-  "name": "Fullboys"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 16142,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Fxggxt",
-  "description": "Fxggxt plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Fxggxt.cs3",
-  "name": "Fxggxt"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 11286,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "GEPorner",
-  "description": "GEPorner plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/GEPorner.cs3",
-  "name": "GEPorner"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 9862,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "GPornOne",
-  "description": "GPornOne plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/GPornOne.cs3",
-  "name": "GPornOne"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 12014,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "GPorntrex",
-  "description": "GPorntrex plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/GPorntrex.cs3",
-  "name": "GPorntrex"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 16991,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "GXtapes",
-  "description": "GXtapes plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/GXtapes.cs3",
-  "name": "GXtapes"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 23831,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "GayStream",
-  "description": "GayStream plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/GayStream.cs3",
-  "name": "GayStream"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 14500,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Gaycock4U",
-  "description": "Gaycock4U plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Gaycock4U.cs3",
-  "name": "Gaycock4U"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 21179,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Gayxx",
-  "description": "Gayxx plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Gayxx.cs3",
-  "name": "Gayxx"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 23917,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "HDgay",
-  "description": "HDgay plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/HDgay.cs3",
-  "name": "HDgay"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 15800,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Hqporner",
-  "description": "Hqporner plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Hqporner.cs3",
-  "name": "Hqporner"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 9587,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "InternetChicks",
-  "description": "InternetChicks plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/InternetChicks.cs3",
-  "name": "InternetChicks"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 22265,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Jayboys",
-  "description": "Jayboys plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Jayboys.cs3",
-  "name": "Jayboys"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 14080,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Justthegays",
-  "description": "Justthegays plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Justthegays.cs3",
-  "name": "Justthegays"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 9757,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "LongVideos",
-  "description": "LongVideos plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/LongVideos.cs3",
-  "name": "LongVideos"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 18047,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Mangoporn",
-  "description": "Mangoporn plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Mangoporn.cs3",
-  "name": "Mangoporn"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 11372,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Noodlemagazine",
-  "description": "Noodlemagazine plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Noodlemagazine.cs3",
-  "name": "Noodlemagazine"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 21177,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Nurgay",
-  "description": "Nurgay plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Nurgay.cs3",
-  "name": "Nurgay"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 12376,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Onlyjerk",
-  "description": "Onlyjerk plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Onlyjerk.cs3",
-  "name": "Onlyjerk"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 15960,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Perverzija",
-  "description": "Perverzija plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Perverzija.cs3",
-  "name": "Perverzija"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 12041,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Porn4fans",
-  "description": "Porn4fans plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Porn4fans.cs3",
-  "name": "Porn4fans"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 12788,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Pornhits",
-  "description": "Pornhits plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Pornhits.cs3",
-  "name": "Pornhits"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 11247,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Pornhoarder",
-  "description": "Pornhoarder plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Pornhoarder.cs3",
-  "name": "Pornhoarder"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 13572,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Pornhub",
-  "description": "Pornhub plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Pornhub.cs3",
-  "name": "Pornhub"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 13101,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Pornken",
-  "description": "Pornken plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Pornken.cs3",
-  "name": "Pornken"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 9626,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Pornmz",
-  "description": "Pornmz plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Pornmz.cs3",
-  "name": "Pornmz"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 12573,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Pornobae",
-  "description": "Pornobae plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Pornobae.cs3",
-  "name": "Pornobae"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 10134,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Pornone",
-  "description": "Pornone plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Pornone.cs3",
-  "name": "Pornone"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 12139,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Porntrex",
-  "description": "Porntrex plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Porntrex.cs3",
-  "name": "Porntrex"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 10187,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Spankbang",
-  "description": "Spankbang plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Spankbang.cs3",
-  "name": "Spankbang"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 12242,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Sxyprn",
-  "description": "Sxyprn plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Sxyprn.cs3",
-  "name": "Sxyprn"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 10837,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Trendyporn",
-  "description": "Trendyporn plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Trendyporn.cs3",
-  "name": "Trendyporn"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 10108,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "UncutMaza",
-  "description": "UncutMaza plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/UncutMaza.cs3",
-  "name": "UncutMaza"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 10188,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Whoreshub",
-  "description": "Whoreshub plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Whoreshub.cs3",
-  "name": "Whoreshub"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 18085,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "XPrimeHub",
-  "description": "XPrimeHub plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/XPrimeHub.cs3",
-  "name": "XPrimeHub"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 26715,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Xhamster",
-  "description": "Xhamster plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Xhamster.cs3",
-  "name": "Xhamster"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 9195,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Xmaza",
-  "description": "Xmaza plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Xmaza.cs3",
-  "name": "Xmaza"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 11562,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Xtapes",
-  "description": "Xtapes plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Xtapes.cs3",
-  "name": "Xtapes"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 9662,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "Yespornplease",
-  "description": "Yespornplease plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Yespornplease.cs3",
-  "name": "Yespornplease"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 34641,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "iGay69",
-  "description": "iGay69 plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/iGay69.cs3",
-  "name": "iGay69"
-}
-,
-{
-  "iconUrl": "https://example.com/icon.png",
-  "apiVersion": 1,
-  "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-  "fileSize": 14179,
-  "status": 1,
-  "language": "en",
-  "authors": [
-    "GayXXX"
-  ],
-  "tvTypes": [
-    "NSFW"
-  ],
-  "version": 1,
-  "internalName": "topHDgayporn",
-  "description": "topHDgayporn plugin description",
-  "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/topHDgayporn.cs3",
-  "name": "topHDgayporn"
-}
+    {
+        "iconUrl": "https://besthdgayporn.com/wp-content/uploads/2023/11/cropped-New-Logo-Site-110423-32x32.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tuangayxx/Gayvn",
+        "fileSize": 14190,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Gayvn"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 2,
+        "internalName": "BestHDgayporn",
+        "description": "BestHDgayporn is Stream and download fan content as well as scenes from your favorite studios. This site is up updated daily and is always 100% free gay porn",
+        "url": "https://raw.githubusercontent.com/Tuangayxx/Gayvn/builds/BestHDgayporn.cs3",
+        "name": "BestHDgayporn"
+    },
+    {
+        "iconUrl": "https://cdn77.boyfriendtv.com/bftv/www/img/bftv/logo-b.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tuangayxx/Gayvn",
+        "fileSize": 11901,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Gayvn"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 1,
+        "internalName": "BoyfriendTV",
+        "description": "BoyfriendTV is the best free full length porn video site. Choose from millions of hardcore videos that stream quickly and in high quality and only full length",
+        "url": "https://raw.githubusercontent.com/Tuangayxx/Gayvn/builds/BoyfriendTV.cs3",
+        "name": "BoyfriendTV"
+    },
+    {
+        "iconUrl": "https://fullboys.com/Content/image/logo-144-v9.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tuangayxx/Gayvn",
+        "fileSize": 11520,
+        "status": 1,
+        "language": "vi",
+        "authors": [
+            "Gayvn"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 4,
+        "internalName": "Fullboys",
+        "description": "Fullboys is the best free full length porn video site. Choose from millions of hardcore videos that stream quickly and in high quality and only full length",
+        "url": "https://raw.githubusercontent.com/Tuangayxx/Gayvn/builds/Fullboys.cs3",
+        "name": "Fullboys"
+    },
+    {
+        "iconUrl": "https://fxggxt.com/wp-content/uploads/2021/04/cropped-Logopit_1617545426773.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tuangayxx/Gayvn",
+        "fileSize": 16142,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Gayvn"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 1,
+        "internalName": "Fxggxt",
+        "description": "(VPN) Premium porn with 4K support",
+        "url": "https://raw.githubusercontent.com/Tuangayxx/Gayvn/builds/Fxggxt.cs3",
+        "name": "Fxggxt"
+    },
+    {
+        "iconUrl": "https://gaycock4u.com/wp-content/uploads/2024/12/logonew-fav.svg",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tuangayxx/Gayvn",
+        "fileSize": 14500,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Gayvn"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 2,
+        "internalName": "Gaycock4U",
+        "description": "The very best of gay porn, just for you! We bring you free, high quality gay porn videos at GayCock4U.com - Updated Daily!",
+        "url": "https://raw.githubusercontent.com/Tuangayxx/Gayvn/builds/Gaycock4U.cs3",
+        "name": "Gaycock4U"
+    },
+    {
+        "iconUrl": "https://gaystream.pw/wp-content/themes/gaystream2/img/logo.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tuangayxx/Gayvn",
+        "fileSize": 23831,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Gayvn"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 2,
+        "internalName": "GayStream",
+        "description": "GayStream is the best video porn video site.",
+        "url": "https://raw.githubusercontent.com/Tuangayxx/Gayvn/builds/GayStream.cs3",
+        "name": "GayStream"
+    },
+    {
+        "iconUrl": "https://gayxx.net/wp-content/themes/yolotube-mod-v2/images/logo.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tuangayxx/Gayvn",
+        "fileSize": 21151,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Gayvn"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 2,
+        "internalName": "Gayxx",
+        "description": "Gayxx.net is the best free Asian porn video site.",
+        "url": "https://raw.githubusercontent.com/Tuangayxx/Gayvn/builds/Gayxx.cs3",
+        "name": "Gayxx"
+    },
+    {
+        "iconUrl": "https://static-eu-cdn.eporner.com/favicon.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tuangayxx/Gayvn",
+        "fileSize": 11286,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Gayvn"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 1,
+        "internalName": "GEPorner",
+        "description": "Eporner Gay is the best free full length porn video site. Choose from millions of hardcore videos that stream quickly and in high quality and only full length",
+        "url": "https://raw.githubusercontent.com/Tuangayxx/Gayvn/builds/GEPorner.cs3",
+        "name": "GEPorner"
+    },
+    {
+        "iconUrl": "https://pornone.com/favicon.ico",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tuangayxx/Gayvn",
+        "fileSize": 9862,
+        "status": 1,
+        "language": "vi",
+        "authors": [
+            "Gayvn"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 1,
+        "internalName": "GPornOne",
+        "description": "PornOne Gay is the best free full length porn video site. Choose from millions of hardcore videos that stream quickly and in high quality and only full length",
+        "url": "https://raw.githubusercontent.com/Tuangayxx/Gayvn/builds/GPornOne.cs3",
+        "name": "GPornOne"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=www.porntrex.com&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tuangayxx/Gayvn",
+        "fileSize": 12014,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Gayvn"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 1,
+        "internalName": "GPorntrex",
+        "description": "Porntrex Gay is the best free full length porn video site. Choose from millions of hardcore videos that stream quickly and in high quality and only full length",
+        "url": "https://raw.githubusercontent.com/Tuangayxx/Gayvn/builds/GPorntrex.cs3",
+        "name": "GPorntrex"
+    },
+    {
+        "iconUrl": "https://gay.xtapes.in/wp-content/uploads/logo6.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tuangayxx/Gayvn",
+        "fileSize": 16991,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Gayvn"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 3,
+        "internalName": "GXtapes",
+        "description": "Xtapes is the best free full length porn video site. Choose from millions of hardcore videos that stream quickly and in high quality and only full length",
+        "url": "https://raw.githubusercontent.com/Tuangayxx/Gayvn/builds/GXtapes.cs3",
+        "name": "GXtapes"
+    },
+    {
+        "iconUrl": "https://hdgay.net/wp-content/themes/yolotube-mod-v2/images/logo.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tuangayxx/Gayvn",
+        "fileSize": 23917,
+        "status": 1,
+        "language": "vi",
+        "authors": [
+            "Gayvn"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 1,
+        "internalName": "HDgay",
+        "description": "HDgay is the best free Asian porn video site.",
+        "url": "https://raw.githubusercontent.com/Tuangayxx/Gayvn/builds/HDgay.cs3",
+        "name": "HDgay"
+    },
+    {
+        "iconUrl": "https://cdn.igay69.com/wp-content/uploads/2023/10/06172235/Logo-2.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tuangayxx/Gayvn",
+        "fileSize": 34641,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Gayvn"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 2,
+        "internalName": "iGay69",
+        "description": "iGay69 is the best free porn video site.",
+        "url": "https://raw.githubusercontent.com/Tuangayxx/Gayvn/builds/iGay69.cs3",
+        "name": "iGay69"
+    },
+    {
+        "iconUrl": "https://www.javboys.tv/wp-content/uploads/2025/04/177d33e6.webp",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tuangayxx/Gayvn",
+        "fileSize": 22265,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Gayvn"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 1,
+        "internalName": "Jayboys",
+        "description": "The Best Free JAV Gay online, Free Download and Watching jav porn videos. Tons of hot jav censored,Japanese tube,Japanese sex online. Update everyday, javhd.today are waiting for you. Enjoy!",
+        "url": "https://raw.githubusercontent.com/Tuangayxx/Gayvn/builds/Jayboys.cs3",
+        "name": "Jayboys"
+    },
+    {
+        "iconUrl": "https://justthegays.com/wp-content/uploads/2024/12/logo-1.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tuangayxx/Gayvn",
+        "fileSize": 14080,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Gayvn"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 1,
+        "internalName": "Justthegays",
+        "description": "Justthegays is Stream and download fan content as well as scenes from your favorite studios. This site is up updated daily and is always 100% free gay porn",
+        "url": "https://raw.githubusercontent.com/Tuangayxx/Gayvn/builds/Justthegays.cs3",
+        "name": "Justthegays"
+    },
+    {
+        "iconUrl": "https://nurgay.to/wp-content/uploads/2023/10/logo.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tuangayxx/Gayvn",
+        "fileSize": 21177,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Gayvn"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 2,
+        "internalName": "Nurgay",
+        "description": "Nurgay is the best free full movies porn video site.",
+        "url": "https://raw.githubusercontent.com/Tuangayxx/Gayvn/builds/Nurgay.cs3",
+        "name": "Nurgay"
+    },
+    {
+        "iconUrl": "https://besthdgayporn.com/wp-content/uploads/2023/11/cropped-New-Logo-Site-110423-32x32.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tuangayxx/Gayvn",
+        "fileSize": 14179,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Gayvn"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 2,
+        "internalName": "topHDgayporn",
+        "description": "BestHDgayporn is Stream and download fan content as well as scenes from your favorite studios. This site is up updated daily and is always 100% free gay porn",
+        "url": "https://raw.githubusercontent.com/Tuangayxx/Gayvn/builds/topHDgayporn.cs3",
+        "name": "topHDgayporn"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=https://vi.xhspot.com&sz=256",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tuangayxx/Gayvn",
+        "fileSize": 26715,
+        "status": 1,
+        "language": "vi",
+        "authors": [
+            "Gayvn"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 1,
+        "internalName": "Xhamster",
+        "description": "Xhamster for Gay",
+        "url": "https://raw.githubusercontent.com/Tuangayxx/Gayvn/builds/Xhamster.cs3",
+        "name": "Xhamster"
+    }
 ]
