@@ -323,25 +323,6 @@
         "name": "topHDgayporn"
     },
     {
-        "iconUrl": "https://www.sotwe.com/_nuxt/icons/icon_64x64.faccdb.png",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
-        "fileSize": 9201,
-        "status": 1,
-        "language": "en",
-        "authors": [
-            "GayXXX"
-        ],
-        "tvTypes": [
-            "NSFW"
-        ],
-        "version": 1,
-        "internalName": "Xbird",
-        "description": "The Best Free Gay online, Free Download and Watching jav porn videos. Tons of hot jav censored,Japanese tube,Japanese sex online. Update everyday, javhd.today are waiting for you. Enjoy!",
-        "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Xbird.cs3",
-        "name": "Xbird"
-    },
-    {
         "iconUrl": "https://www.google.com/s2/favicons?domain=https://vi.xhspot.com&sz=256",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
@@ -359,5 +340,25 @@
         "description": "Xhamster for Gay",
         "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Xhamster.cs3",
         "name": "Xhamster"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=https://www.xvideos.com&sz=256",
+        "jarFileSize": 49186,
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
+        "fileSize": 14522,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "GayXXX"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 1,
+        "internalName": "XvideosGay",
+        "jarUrl": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/XvideosGay.jar",
+        "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/XvideosGay.cs3",
+        "name": "XvideosGay"
     }
 ]
