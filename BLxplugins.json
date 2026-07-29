@@ -160,6 +160,30 @@
         "fileHash": "sha256-cb90b3c53ff695a185c6b4fc3cae146844832b35695023c61d0786f1a1199326"
     },
     {
+        "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Moviekhhd.cs3",
+        "status": 1,
+        "version": 2,
+        "name": "Moviekhhd",
+        "internalName": "Moviekhhd",
+        "authors": [
+            "GayXXX"
+        ],
+        "description": "Contains Bluray7",
+        "fileSize": 14482,
+        "repositoryUrl": "https://github.com/Tuangayxx/GayXXX",
+        "language": "fil",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://pinoymoviepedia.ru&size=16",
+        "apiVersion": 1,
+        "fileHash": "sha256-0c2865f08120356370cdceb1e44ebcc2e61de71bf0dd503897f0e62d092fbe38",
+        "jarFileSize": 53915,
+        "jarUrl": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Moviekhhd.jar",
+        "jarHash": "sha256-5f2717974d1a57421dfc1eb19e7123fbc45eebc78b16edbb2caab26dfdd8bb8e"
+    },
+    {
         "url": "https://raw.githubusercontent.com/Tuangayxx/GayXXX/builds/Pinoymoviepedia.cs3",
         "status": 1,
         "version": 2,
